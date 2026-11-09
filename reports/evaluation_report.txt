@@ -1,0 +1,27 @@
+MULTILINGUAL TEXT CLASSIFICATION - TEST RESULTS
+
+Test Accuracy: 96.91%
+
+Classification Report:
+               precision    recall  f1-score   support
+
+Entertainment       0.95      0.96      0.95       965
+       Sports       0.98      0.97      0.97      1228
+   Technology       0.98      0.98      0.98      1111
+
+     accuracy                           0.97      3304
+    macro avg       0.97      0.97      0.97      3304
+ weighted avg       0.97      0.97      0.97      3304
+
+Confusion Matrix:
+               Entertainment  Sports  Technology
+Entertainment            928      22          15
+Sports                    33    1188           7
+Technology                18       7        1086
+
+Language-wise Accuracy:
+language
+Bengali    0.963816
+English    0.967782
+Hindi      0.989183
+Tamil      0.954847

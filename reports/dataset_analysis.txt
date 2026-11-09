@@ -1,0 +1,376 @@
+
+============================================================
+LANGUAGE: English
+============================================================
+
+TRAIN DATASET
+----------------------------------------
+Rows: 36877
+Columns: ['text', 'labels']
+
+First 3 records:
+                                                                                 text    labels
+Chhattisgarh Polls: Congress Releases First List, Fields CM Bhupesh Baghel From Patan Elections
+   Honda Elevate CVT Detailed Review — Check Out Its Specifications, Features & Looks      Auto
+               Raksha Bandhan 2022 Muhurta: Know Precise Auspicious Time To Tie Rakhi Lifestyle
+
+Missing values:
+text      21
+labels    20
+dtype: int64
+
+Dataset information:
+<class 'pandas.DataFrame'>
+RangeIndex: 36877 entries, 0 to 36876
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   text    36856 non-null  str  
+ 1   labels  36857 non-null  str  
+dtypes: str(2)
+memory usage: 3.9 MB
+None
+
+----------------------------------------
+
+TEST DATASET
+----------------------------------------
+Rows: 4610
+Columns: ['text', 'labels']
+
+First 3 records:
+                                                                          text        labels
+                      Homegrown Social Media Firm ShareChat Lays Off 200 Staff    Technology
+OMG 2 Box Office Collection Day 6: Akshay Kumar Starrer Film Mints Rs 80 Crore Entertainment
+   JEE Main 2024 Session 1 Registration Ends Today, Apply On jeemain.nta.ac.in     Education
+
+Missing values:
+text      2
+labels    2
+dtype: int64
+
+Dataset information:
+<class 'pandas.DataFrame'>
+RangeIndex: 4610 entries, 0 to 4609
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   text    4608 non-null   str  
+ 1   labels  4608 non-null   str  
+dtypes: str(2)
+memory usage: 495.0 KB
+None
+
+----------------------------------------
+
+VALID DATASET
+----------------------------------------
+Rows: 4610
+Columns: ['text', 'labels']
+
+First 3 records:
+                                                                                              text    labels
+Telangana Elections: Congress To Sound Poll Bugle With Rahul Gandhi's Public Meet In Khammam Today Elections
+      Five Covid Patients In Delhi Suffer Rectal Bleeding, One Dead - Know All About CMV Infection    Health
+                    Lundra Election  Result 2023 Live: Bjp Candidate Prabodh Minz Wins From Lundra Elections
+
+Missing values:
+text      4
+labels    4
+dtype: int64
+
+Dataset information:
+<class 'pandas.DataFrame'>
+RangeIndex: 4610 entries, 0 to 4609
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   text    4606 non-null   str  
+ 1   labels  4606 non-null   str  
+dtypes: str(2)
+memory usage: 496.0 KB
+None
+
+----------------------------------------
+
+============================================================
+LANGUAGE: Hindi
+============================================================
+
+TRAIN DATASET
+----------------------------------------
+Rows: 30851
+Columns: ['text', 'labels']
+
+First 3 records:
+                                                                                          text            labels
+                                                                   राजनीति: हवा के हजार दुश्मन          politics
+  BSP को जड़ से खत्म करने की तैयारी में अखिलेश! कई ‘मोर्चों’ पर कर रहे दलितों को तोड़ने का काम          politics
+Kidney Stone : किडनी में पथरी की समस्या से हैं परेशान? इन नेचुरल तरीकों से मिल सकता है छुटकारा health-news-hindi
+
+Missing values:
+text      0
+labels    0
+dtype: int64
+
+Dataset information:
+<class 'pandas.DataFrame'>
+RangeIndex: 30851 entries, 0 to 30850
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   text    30851 non-null  str  
+ 1   labels  30851 non-null  str  
+dtypes: str(2)
+memory usage: 7.6 MB
+None
+
+----------------------------------------
+
+TEST DATASET
+----------------------------------------
+Rows: 3836
+Columns: ['text', 'labels']
+
+First 3 records:
+                                                                                                                          text        labels
+           Hero Vida V1 price hike: Fame 2 सब्सिडी में कटौती के बाद महंगा हुआ हीरो विडा वी1 को खरीदना, जानें नई और पुरानी कीमत    automobile
+Budget 2023: आजादी के बाद भी जारी थी बजट की अटपटी परंपरा, 1999 में वाजपेयी को भरोसे में लेकर यशवंत सिन्हा ने पलट दिया था फैसला      business
+                                                           मनोरंजक तरीके से प्रासंगिक मुद्दों पर ‘जयेशभाई जोरदार’ : रणवीर सिंह entertainment
+
+Missing values:
+text      0
+labels    0
+dtype: int64
+
+Dataset information:
+<class 'pandas.DataFrame'>
+RangeIndex: 3836 entries, 0 to 3835
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   text    3836 non-null   str  
+ 1   labels  3836 non-null   str  
+dtypes: str(2)
+memory usage: 971.7 KB
+None
+
+----------------------------------------
+
+VALID DATASET
+----------------------------------------
+Rows: 3835
+Columns: ['text', 'labels']
+
+First 3 records:
+                                                                                                        text    labels
+          Police SI Recruitment Notification: पुलिस में सब इंस्पेक्टर के पदों पर भर्ती परीक्षा का नोटिफिकेशन education
+RRB Group D New Notification: आरआरबी ने ग्रुप डी भर्ती के लिए जारी किया नया नोटिफिकेशन, जानें क्या हुआ बदलाव education
+       Yamaha MT 15 V2 Vs KTM 125 Duke: कीमत, इंजन और माइलेज में कौन है बेहतर Streetfighter Bike, जानें यहां  business
+
+Missing values:
+text      0
+labels    0
+dtype: int64
+
+Dataset information:
+<class 'pandas.DataFrame'>
+RangeIndex: 3835 entries, 0 to 3834
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   text    3835 non-null   str  
+ 1   labels  3835 non-null   str  
+dtypes: str(2)
+memory usage: 959.0 KB
+None
+
+----------------------------------------
+
+============================================================
+LANGUAGE: Bengali
+============================================================
+
+TRAIN DATASET
+----------------------------------------
+Rows: 23968
+Columns: ['labels', 'text']
+
+First 3 records:
+  labels                                                                              text
+  sports শাহবাজ়ের লড়াকু ব্যাটিং! বাংলার প্রথম ইনিংস শেষ, এখনও শেষ চার নিশ্চিত নয় মনোজদের
+national                                                   বুলডোজার রাজ কাশ্মীরে, প্রতিবাদ
+national                                            হিংসা চলছেই, মণিপুরের গ্রামে খুন আরও ৩
+
+Missing values:
+labels    0
+text      0
+dtype: int64
+
+Dataset information:
+<class 'pandas.DataFrame'>
+RangeIndex: 23968 entries, 0 to 23967
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   labels  23968 non-null  str  
+ 1   text    23968 non-null  str  
+dtypes: str(2)
+memory usage: 4.0 MB
+None
+
+----------------------------------------
+
+TEST DATASET
+----------------------------------------
+Rows: 2997
+Columns: ['labels', 'text']
+
+First 3 records:
+       labels                                                                    text
+entertainment ক্যাটরিনা আর সলমন ‘এক কামরে মেঁ বন্ধ্‌ হো’! কোথায়? তা-ও জানালেন অভিনেতা
+international        অস্কার মঞ্চে ভারতকে তুলে ধরলো নাটু নাটু, দ্যা এলিফ্যন্ট হুইস্পার
+    editorial                                     শিশু সাহিত্যের বহু লেখক পেয়েছে জেলা
+
+Missing values:
+labels    0
+text      0
+dtype: int64
+
+Dataset information:
+<class 'pandas.DataFrame'>
+RangeIndex: 2997 entries, 0 to 2996
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   labels  2997 non-null   str  
+ 1   text    2997 non-null   str  
+dtypes: str(2)
+memory usage: 518.2 KB
+None
+
+----------------------------------------
+
+VALID DATASET
+----------------------------------------
+Rows: 2996
+Columns: ['labels', 'text']
+
+First 3 records:
+  labels                                                  text
+  sports      বিরাট ফেরার পরেই নিশ্চিত হয়ে যায় জয়, বলছেন স্মিথ
+politics          বিএনপি অপশক্তির মুখপাত্রে পরিণত হয়েছে: কাদের
+politics 'সরকারি-বিরোধীদল উভয়ই মুক্তিযুদ্ধের পক্ষের হওয়া উচিত'
+
+Missing values:
+labels    0
+text      0
+dtype: int64
+
+Dataset information:
+<class 'pandas.DataFrame'>
+RangeIndex: 2996 entries, 0 to 2995
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   labels  2996 non-null   str  
+ 1   text    2996 non-null   str  
+dtypes: str(2)
+memory usage: 516.5 KB
+None
+
+----------------------------------------
+
+============================================================
+LANGUAGE: Tamil
+============================================================
+
+TRAIN DATASET
+----------------------------------------
+Rows: 25030
+Columns: ['text', 'labels']
+
+First 3 records:
+                                                                                            text   labels
+“புதிய மொழி கற்றால் தமிழ் அழியுமா? தமிழ் மொழியை யாராலும் அழிக்க முடியாது”  - தமிழிசை சௌந்தரராஜன் Politics
+ ரெப்போ வட்டி விகிதம் 0.25 சதவீதம் உயர்வு - வீடு, வாகன கடன்களுக்கான மாத தவணை அதிகரிக்க வாய்ப்பு Business
+                                              ரிஷி சுனக் மனைவிக்கு ஒரே நாளில் ரூ.500 கோடி இழப்பு    World
+
+Missing values:
+text      27
+labels    27
+dtype: int64
+
+Dataset information:
+<class 'pandas.DataFrame'>
+RangeIndex: 25030 entries, 0 to 25029
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   text    25003 non-null  str  
+ 1   labels  25003 non-null  str  
+dtypes: str(2)
+memory usage: 5.5 MB
+None
+
+----------------------------------------
+
+TEST DATASET
+----------------------------------------
+Rows: 3129
+Columns: ['text', 'labels']
+
+First 3 records:
+                                                                                                  text     labels
+ கொளத்தூரில் ரூ.3.84 கோடியில் கால்பந்து திடல், சிறுவர் பூங்கா: முதல்வர் மு.க.ஸ்டாலின் திறந்து வைத்தார்     Cinema
+                                              உலக அளவில் கரோனா குறைந்து வருகிறது: உலக சுகாதார நிறுவனம்      Covid
+                                                வரமெல்லாம் தரும் வைகாசி சுக்கிர வார அமாவாசை; தர்ப்பணம் Spirituals
+
+Missing values:
+text      5
+labels    5
+dtype: int64
+
+Dataset information:
+<class 'pandas.DataFrame'>
+RangeIndex: 3129 entries, 0 to 3128
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   text    3124 non-null   str  
+ 1   labels  3124 non-null   str  
+dtypes: str(2)
+memory usage: 702.9 KB
+None
+
+----------------------------------------
+
+VALID DATASET
+----------------------------------------
+Rows: 3129
+Columns: ['text', 'labels']
+
+First 3 records:
+                                                                                                                                            text labels
+                                                                  எதிர்க்கட்சியினருக்கு குடும்பம்தான் முக்கியம்: பிரதமர் நரேந்திர மோடி விமர்சனம்  India
+                                                     பிரதமர் மோடியின் பட்டப் படிப்பு குறித்த அவதூறு வழக்கு: கேஜ்ரிவால் ஜூலை 26-ல் ஆஜராக உத்தரவு  India
+ 4 வயது சிறுமிக்கு பாலியல் வன்கொடுமை: தனியார் பள்ளி வாகன ஓட்டுநர், உதவியாளருக்கு இறக்கும்வரை ஆயுள் சிறை- கோவை போக்ஸோ சிறப்பு நீதிமன்றம் தீர்ப்பு  Crime
+
+Missing values:
+text      6
+labels    6
+dtype: int64
+
+Dataset information:
+<class 'pandas.DataFrame'>
+RangeIndex: 3129 entries, 0 to 3128
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   text    3123 non-null   str  
+ 1   labels  3123 non-null   str  
+dtypes: str(2)
+memory usage: 702.4 KB
+None
+
+----------------------------------------
